@@ -1,0 +1,10 @@
+# Intelligent-Mannequin
+Imagine when you walk in a mall and you stop and stare at a model displaying a product, wouldn’t it be amazing if they talked back to you? Through the Intelligent Mannequin System, it is now possible to engage the customer through a unique experience! This marketing platform helps the retail world and manufacturing industry to interact with their customers and the various users worldwide taking their valuable input and offering targeted purchases and thus gradually reducing the overall waste material produced. This model is aimed at providing benefits to the textile industries in the future using advanced technologies. 
+# Technical details:
+The proposed model or solution is based on the face recognition and detection technique which is an important factor to achieve the goal. The mannequin/figure contains a camera to detect human presence for more than 5-10 seconds and then responds to the customer. This experimental app includes real-time face recognition and detection to detect the face when the user reads the text. HAAR Cascade Classifiers are used for face detection followed by execution of a primary component analysis algorithm for recognition of their faces. If a face is found, then GTTS (Google Text to Speech) will be activated and will ask a set of predefined questions. The user’s response will be stored in a database(MySQL) using ‘xampp’ software and a copy of the conversation between customer and mannequin will be sent to the store owner's email ID. The data entered into the database will be analyzed and plotted into graphs; with the help of a python library called ‘numpy’; for convenient use by store owners.
+# Prerequisites:
+xampp, Python(3.6 and higher), Camera and microphones.
+# Skills required:
+You can use any IDE like Anaconda, Jupyter or Pycharm. Just run the project in a virtual environment. Certain reference to create virtual environment :
+https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+You should have Python and install certain libraries like OpenCV, gtts, numpy,matplotlib and speech recognition depending on the compatibility.
